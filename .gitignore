@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment folders
+.venv/
+venv/
+env/
+
+# Jupyter notebook checkpoints
+# .ipynb_checkpoints/
+
+# VSCode, PyCharm, and other environment settings
+.vscode/
+.idea/
+*.swp
+
+# Mac OS files
+.DS_Store
+
+# Logs, local uploads, and other unwanted files
+uploads/
+*.log
+
+# If you don’t want to commit images (remove if you do want to track them)
+*.jpg
+*.jpeg
+*.png
+*.gif
