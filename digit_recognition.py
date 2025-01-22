@@ -21,8 +21,8 @@ def load_image(img_path):
 img = load_image('ab.png')
 
 # Verify shape and pixel range
-print("Image shape:", img.shape)
-print("Pixel range:", img.min(), "-", img.max())
+print("Image shape: ", img.shape)
+print("Pixel range: ", img.min(), "-", img.max())
 
 # Plot image
 plt.imshow(img[0, :, :, 0], cmap='gray')
